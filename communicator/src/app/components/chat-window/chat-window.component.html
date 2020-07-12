@@ -1,0 +1,16 @@
+<div class="container">
+    <cdk-virtual-scroll-viewport itemSize="4" class='example-viewport'>
+        <div *cdkVirtualFor="let message of messages" class='example-item'>
+
+            <div class="messageContainer">
+                <span
+                    [ngClass]="message.userId == userId ? 'myMessage' : 'otherMessage'">{{message.textMessage }}</span>
+            </div>
+        </div>
+
+    </cdk-virtual-scroll-viewport>
+
+    <input class="input" type="text" name="testMessage" [(ngModel)]="testMessage" placeholder=". . ."
+        (keyup.enter)="send()">
+
+</div>

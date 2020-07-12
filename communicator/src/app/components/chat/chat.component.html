@@ -1,0 +1,10 @@
+<app-header></app-header>
+<div class="friend">
+  <app-friends-list (friendsEmit)="friendsEmit($event)" messageFrom={{messageFrom}} friendId={{friendId}}>
+  </app-friends-list>
+</div>
+
+<div class="chat">
+  <app-chat-window *ngIf="show" messageComming={{messageComming}} friendId={{friendId}}
+    (messageEmit)="messageEmit($event)"></app-chat-window>
+</div>

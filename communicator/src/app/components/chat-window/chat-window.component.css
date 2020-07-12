@@ -1,0 +1,77 @@
+
+  
+  .example-viewport {
+    box-sizing:border-box;
+    height: 95%;
+    width: 60%;
+    border-bottom-style:none;
+    border-left: 1px solid black;
+    background-color: rgb(199, 238, 205);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+  }
+  
+  .example-item {
+    height: 25px;
+
+  }
+
+  
+  .container{
+   
+    height: 100%;
+    width: 100%;
+  }
+  
+  .friend{
+
+    height: 50px;
+  }
+  .input{
+    box-sizing:border-box;
+    position: relative;
+    width: 60%; 
+    height: 5%;
+    border: none;
+    border-left: 1px solid black;
+    background-color: rgb(199, 238, 205);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    outline: none;
+  }
+  ::placeholder { 
+    color: black;
+    font-size: 15px;
+
+  }
+ 
+    .myMessage{
+
+    box-sizing:border-box;
+    font-family: Lato;
+    top: 30%;
+    margin-right: 8px;
+    float: right;
+    font-size: 20px;
+    background-color:  rgb(117, 235, 38);
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+   
+    .otherMessage{
+      box-sizing:border-box;
+      font-family: Lato;
+      top: 30%;
+      margin-left: 8px;
+      float: left;
+      font-size: 20px;
+      background-color: rgb(14, 202, 39);
+      border-radius: 5px;
+      padding-left: 8px;
+     padding-right: 8px;
+    }
+
+    .messageContainer{
+margin-top: 5px;
+
+
+    }
